@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        dialog {
+            width: 400px;
+            font-size: 20px;
+            font-family: Arial;
+            background-color: rgba(255,255,255,0.9);
+        }
+        .dialog-header {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .dialog-body {
+            padding: 30px;
+        }
+        .control {
+            border:1px solid gray;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .dialog-footer {
+            padding-right: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        .btn {
+            background-color: blue;
+            color:white;
+            padding: 10px;
+            width: 60px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <dialog open>
+        <div class="dialog-header">
+            <span>Talk to Advisor form</span>
+            <span class="bi bi-x-square-fill"></span>
+        </div>
+        <div class="dialog-body">
+            <div class="control">Full Name</div>
+            <div class="control">Mobile Number</div>
+            <div class="control">Email Address</div>
+            <div class="control">Select Course</div>
+        </div>
+        <div class="dialog-footer">
+            <div class="btn">Submit</div>
+        </div>
+    </dialog>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi id ipsum neque quod, corporis vero dolor dolores fugit placeat omnis recusandae delectus officia voluptatum harum ad perspiciatis voluptatibus corrupti ab.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit exercitationem cum esse, laborum voluptas maxime delectus, provident architecto voluptate necessitatibus, odio eius similique veniam animi! Voluptatum accusamus vero blanditiis illo.
+
+</body>
+</html>
